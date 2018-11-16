@@ -10,8 +10,16 @@
 	max-width: 100%;
 }
 img{
-max-width:100%;
+	max-width:100%;
 }
+
+header img{
+	max-width:20%;
+	position:absolute;
+	top:25px;
+	left:0px;
+}
+
 
 nav{
 	font-family: titling-gothic-fb, sans-serif;
