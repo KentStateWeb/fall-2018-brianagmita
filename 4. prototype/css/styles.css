@@ -20,7 +20,7 @@ nav{
 /*Menu*/
 nav ul{
 	display:flex;
-	justify-content:space-even;
+	justify-content:flex-end;
 }
 
 body{
