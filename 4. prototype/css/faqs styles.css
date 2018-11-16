@@ -1,0 +1,86 @@
+/*GLOBAL CSS*/
+
+*{
+	box-sizing: border-box;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	text-decoration: none;
+	max-width: 100%;
+}
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.toggles {
+  margin: 100px auto;
+  background: #fff;
+  transform: translateZ(0);
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+
+
+input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}
+
+label {
+  position: relative;
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  font-weight: 700;
+  border-top: 1px solid red;
+  background: #fff;
+  cursor: pointer;
+}
+
+label[for*='1'] {
+  border: 0;
+}
+
+label:after {
+  content: '\f078';
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  font-family: fontawesome;
+  transform: rotate(90deg);
+  transition: .5s transform;
+}
+
+section {
+  max-height: 0;
+  transition: .5s all;
+  overflow: hidden;
+}
+
+#toggle1:checked ~ label[for*='1']:after,
+#toggle2:checked ~ label[for*='2']:after,
+#toggle3:checked ~ label[for*='3']:after,
+#toggle4:checked ~ label[for*='4']:after,
+#toggle5:checked ~ label[for*='5']:after,
+#toggle6:checked ~ label[for*='6']:after,
+#toggle7:checked ~ label[for*='7']:after,
+#toggle8:checked ~ label[for*='8']:after,
+#toggle9:checked ~ label[for*='9']:after,
+#toggle10:checked ~ label[for*='10']:after{
+  transform: rotate(0deg);
+}
+
+#toggle1:checked ~ #content1,
+#toggle2:checked ~ #content2,
+#toggle3:checked ~ #content3,
+#toggle4:checked ~ #content4,
+#toggle5:checked ~ #content5,
+#toggle6:checked ~ #content6,
+#toggle7:checked ~ #content7,
+#toggle8:checked ~ #content8,
+#toggle9:checked ~ #content9,
+#toggle10:checked ~ #content10{
+  max-height: 200px;
+}
+
+
