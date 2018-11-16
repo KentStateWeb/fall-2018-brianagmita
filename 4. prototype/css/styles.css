@@ -6,7 +6,7 @@
 	padding: 0px;
 	margin: 0px;
 	border: none;
-	text-decoration: none;
+	/**text-decoration: none;**/
 	max-width: 100%;
 }
 img{
@@ -20,7 +20,10 @@ header img{
   
 	
 }
-
+nav a{
+	text-decoration: none;
+	color:#262D33;
+}
 
 nav{
 	font-family: titling-gothic-fb, sans-serif;
@@ -39,6 +42,9 @@ nav li{
 	padding-right:40px;
 }
 
+a:hover{
+	color:#942A1F;
+}
 			@media screen and (max-width: 570px){
 				
 				nav ul{display:none;}
