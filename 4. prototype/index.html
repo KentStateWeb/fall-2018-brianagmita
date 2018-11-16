@@ -14,18 +14,27 @@
   </head>
   <main>
     <header>
-      <nav>
-        <img src="images/_wrench-logo main.svg" alt="Wrench logo"/>
-        <ul>
-          <li>Home</li>
-          <li>Services</li>
-          <li>FAQs</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-        <p>hamburger menu</p>
+         <img src="images/_wrench-logo main.svg" alt="Wrench logo"/>
+      /*hambergur menu*/
+        <a href="#menu" class="menu-link">
+    <div class="menu-link__hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    /*<div class="menu-link__label">Menu</div>*/
+</a>
+         
+      <nav id="menu" role="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
       </nav>
-      
+  
       <div class="hero image">
         <img src="images/mechanic-customer-8.jpg" alt="staff and customer"/>
         <p>
@@ -34,6 +43,7 @@ services to get you back on the road quickly.
         </p>
         <p>button</p>
       </div>
+    
     </header>
     
     <body>
