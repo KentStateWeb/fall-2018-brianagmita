@@ -14,8 +14,10 @@ img{
 }
 
 header img{
-	max-width:15%;
-	min-height:30px;
+	max-width:100%;
+	width:38%;
+   	min-width:300px;
+  
 	
 }
 
