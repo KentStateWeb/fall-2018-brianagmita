@@ -41,19 +41,20 @@ nav li{
 
 			@media screen and (max-width: 570px){
 				
+				nav ul{display:none;}
 				 a.menu-link {
 					float: right;
 					    display: block;
 					    padding: 1em;
-					      width: 125px;
+					    width: 125px;
 					}
 
-				/* Adds Code for Pure CSS Hamburger Button */
+				/* Hamburger Button */
 
 				.menu-link__hamburger {
 				    margin: 0 auto;
-				    text-align: center;
 				    width: 33px;
+				    text-align: center;
 				    float: left;
 				    transform: translate(0,0);
 				    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
