@@ -15,9 +15,7 @@ img{
 
 header img{
 	max-width:20%;
-	position:absolute;
-	top:25px;
-	left:0px;
+	
 }
 
 
@@ -131,7 +129,7 @@ nav li{
 					    padding: 0.8em;
 					    border-bottom: 1px solid #808080;
 					}
-
+			}
 					@media screen and (min-width:800px) {
 					    a.menu-link {
 					       display: none;
@@ -152,7 +150,7 @@ nav li{
 						border: 0;
 					    }
 					}
-			}
+			
 
 body{
 	font-family: titling-gothic-fb-narrow, sans-serif;
