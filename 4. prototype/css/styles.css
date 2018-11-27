@@ -188,6 +188,7 @@ p{
 /**footer**/
 footer{
 	text-aling:center;
+	display:flex;
 }
 footer dt{
 	color:#F6C02D;
@@ -196,6 +197,6 @@ footer dt{
 	
 }
 footer dd{
-	font-size:10px;
+	font-size:13px;
 }
 
