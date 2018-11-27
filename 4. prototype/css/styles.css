@@ -188,7 +188,7 @@ p{
 /**footer**/
 footer{
 	text-aling:center;
-	display:flex;
+
 }
 footer dt{
 	color:#F6C02D;
@@ -199,4 +199,6 @@ footer dt{
 footer dd{
 	font-size:13px;
 }
-
+footer dl{	
+	display:flex;
+}
