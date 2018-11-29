@@ -155,15 +155,10 @@ a:hover{
 					    padding: 12px;
 					    border-bottom: 1px solid #808080;
 					}
-			}**/
+			}
 					@media screen and (min-width:570px) {
-					main{
-
-					margin: 0px auto 0px auto;
-					max-width:1200px;
-
-					}
-					    /**a.menu-link {
+					
+					    a.menu-link {
 					       display: none;
 					    }
 					    .js nav[role=navigation] {
@@ -224,3 +219,11 @@ footer dd{
 footer dl{	
 	display:flex;
 }
+		/**Desktop**/
+		@media screen and (min-width:570px){
+			main{
+
+			margin: 0px auto 0px auto;
+			max-width:1200px;
+			}
+		}
