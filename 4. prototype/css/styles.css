@@ -9,6 +9,13 @@
 	/**text-decoration: none;**/
 	max-width: 100%;
 }
+
+main{
+	margin: 0px auto 0px auto;
+	max-width:1200px;
+}
+
+
 img{
 	max-width:100%;
 }
