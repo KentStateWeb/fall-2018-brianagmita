@@ -76,8 +76,8 @@ a:hover{
 
 				a.menu-link span {
 				  display: block;
-				  height: 5px;
-				  margin-bottom: 7px;
+				  height: 4px;
+				  margin-bottom: 5px;
 				  position: relative;
 				  background: #262D33;
 				  border-radius: 1px; /*Rounding of Hamburger*/
