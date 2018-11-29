@@ -56,7 +56,7 @@ a:hover{
 					    padding: 16px;
 					    width: 125px;
 					}
-				a.menu-link hover{color:#F6C02D;}
+				a.hover .menu-link__hamburger {color:#F6C02D;}
 
 				/* Hamburger Button */
 
