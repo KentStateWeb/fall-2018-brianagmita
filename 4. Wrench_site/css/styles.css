@@ -50,7 +50,7 @@ nav ul{
 	display:flex;
 	justify-content:space-evenly;
 	padding-right: 20px;
-	padding-top:100px;
+
 	
 }
 nav li{
@@ -233,4 +233,5 @@ footer dl{
 			padding-right:40px;
 			
 			}
+			nav ul{	padding-top:100px;}
 		}
