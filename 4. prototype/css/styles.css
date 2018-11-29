@@ -50,18 +50,18 @@ a:hover{
 				
 			nav ul{display:none;}
 				
-				 a.menu-link {
+				/** a.menu-link {
 					float: right;
 					    display: block;
 					    padding: 16px;
 					    width: 125px;
 					}
-				a.hover{color:#F6C02D;}
+				**/
 
 				/* Hamburger Button */
 
 				.menu-link__hamburger {
-				    margin: 0 auto;
+				    margin: 0px auto 0px auto;
 				    width: 40px;
 				    text-align: center;
 				    float: left;
@@ -76,11 +76,11 @@ a:hover{
 
 				a.menu-link span {
 				  display: block;
-				  height: 5px;
-				  margin-bottom: 5px;
+				  height: 2px;
+				  margin-bottom: 7px;
 				  position: relative;
 				  background: #262D33;
-				  border-radius: 2px; /*Rounding of Hamburger*/
+				  border-radius: 1px; /*Rounding of Hamburger*/
 				  z-index: 1;
 				  transform-origin: 4px 0px;
 				  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
