@@ -11,6 +11,7 @@
     <link href="css/faqs styles.css" rel="stylesheet" type="text/css" media="screen" />
     <link rel="stylesheet" href="https://use.typekit.net/frv3rrs.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
   </head>
  
   <main>
@@ -40,6 +41,44 @@
     </header>
     
     <body>
+      
+      <button class="accordion">How often should I rotate my tires?</button>
+      <div class="panel">
+        <p>Your tires should be rotated every other oil change or every 6,000 miles. Neglecting to rotate tires is a major cause of premature tire wear.</p>
+      </div>
+
+      <button class="accordion">Is it really necessary to replace my timing belt at the manufacturer-recommended intervals?</button>
+      <div class="panel">
+        <p>YES. The failure of a timing belt in many cars can result in major engine damage. The cost of repairing an engine with a broken timing belt is much greater than the cost of a timing belt replacement.</p>
+      </div>
+
+      <button class="accordion">Section 3</button>
+      <div class="panel">
+        <p>Lorem ipsum...</p>
+      </div>
+      
+      <button class="accordion">Section 4</button>
+      <div class="panel">
+        <p>Lorem ipsum...</p>
+      </div>
+      
+      <button class="accordion">Section 5</button>
+      <div class="panel">
+        <p>Lorem ipsum...</p>
+      </div>
+      
+      <button class="accordion">Section 6</button>
+      <div class="panel">
+        <p>Lorem ipsum...</p>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
       
       <div class=toggles>
         
@@ -133,6 +172,27 @@
           </p>
         </section>
       </div>
+      
+      
+      
+      
+    <script type="text/javascript">
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight){
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          } 
+        });
+      }
+    </script>
+      
       
     </body>
     
