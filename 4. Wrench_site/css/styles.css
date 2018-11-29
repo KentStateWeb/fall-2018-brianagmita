@@ -59,12 +59,7 @@ a:hover{
 			@media screen and (max-width: 570px){
 				
 			nav ul{display:none;}
-			main{
-				
-				margin: 0px auto 0px auto;
-				max-width:1200px;
-	
-			}
+			
 				
 				 a.menu-link {
 					float: right;
@@ -160,9 +155,15 @@ a:hover{
 					    padding: 12px;
 					    border-bottom: 1px solid #808080;
 					}
-			}
+			}**/
 					@media screen and (min-width:570px) {
-					    a.menu-link {
+					main{
+
+					margin: 0px auto 0px auto;
+					max-width:1200px;
+
+					}
+					    /**a.menu-link {
 					       display: none;
 					    }
 					    .js nav[role=navigation] {
