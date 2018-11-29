@@ -86,6 +86,7 @@ a:hover{
 					      opacity 0.55s ease;
 				}
 
+				/**
 				a.menu-link span:first-child {
 				  transform-origin: 0% 0%;
 				}
@@ -114,6 +115,7 @@ a:hover{
 				  opacity: 1;
 				  transform: rotate(-45deg) translate(0, -1px);
 				}
+				**/
 
 				nav[role=navigation] {
 					    clear: both;
@@ -123,7 +125,7 @@ a:hover{
 					    -o-transition: all 0.3s ease-out;
 					    transition: all 0.3s ease-out;
 					}
-					.js nav[role=navigation] {
+				/**	.js nav[role=navigation] {
 					    overflow: hidden;
 					    max-height: 0;
 					}
@@ -161,7 +163,7 @@ a:hover{
 						border: 0;
 					    }
 					}
-			
+			**/
 
 body{
 	font-family: titling-gothic-fb-narrow, sans-serif;
