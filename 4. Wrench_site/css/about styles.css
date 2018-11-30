@@ -189,7 +189,7 @@ a:hover{
 
 body{
 	font-family: titling-gothic-fb-narrow, sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 	font-style: normal;
 }
 
@@ -210,7 +210,7 @@ h2, .button{
 
 p{
 	font-family: titling-gothic-fb-narrow, sans-serif;
-	font-weight: 100;
+	font-weight: 300;
 	font-style: normal;
 }
 /**footer**/
@@ -219,12 +219,10 @@ margin-top:50px;
 text-align:left;
 background-color:#262D33;
 padding:40px;
-
+margin-bottom:0;
 
 }
-footer, dl, ul{
-	margin-bottom:30px;
-}
+
 footer dt{
 	color:#F6C02D;
 	font-weight:regular;
