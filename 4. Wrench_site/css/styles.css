@@ -230,6 +230,11 @@ footer dd{
 	text-decoration: none;
 	color:#E6E7E8;
 }
+footer img{
+	max-width:200px;
+	width:15%;
+   	min-width:150px;
+}
 		/**Desktop**/
 		@media screen and (min-width:570px){
 			main{
