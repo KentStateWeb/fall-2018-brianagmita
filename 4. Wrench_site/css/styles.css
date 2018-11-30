@@ -200,8 +200,9 @@ h1{
 	font-style: normal;
 	margin-top: 28px;
 	margin-bottom: 16px;
-}
 
+}
+h3{color:#942A1F;}
 h2, .button{
 	font-family: titling-gothic-fb-condensed, sans-serif;
 	font-weight: 450;
