@@ -64,6 +64,7 @@ a:hover{
 			@media screen and (max-width: 570px){
 
 			nav ul{display:none;}
+			header{display:block;}
 
 
 				 a.menu-link {
@@ -213,6 +214,8 @@ footer{
 text-align:left;
 background-color:#262D33;
 padding:40px;
+display:flex;
+justify-content:space-evenly;
 }
 footer dt{
 	color:#F6C02D;
