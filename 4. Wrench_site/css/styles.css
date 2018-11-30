@@ -79,7 +79,7 @@ a:hover{
 				    margin: 0px auto 0px auto;
 				    width: 40px;
 				    text-align: center;
-				    float: left;
+				    float: right;
 				    transform: translate(0,0);
 				    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 				}
