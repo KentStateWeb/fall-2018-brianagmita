@@ -232,19 +232,19 @@ footer dd{
 
 footer ul{
 /**text decoration not working, can not change link colors to our bone color **/
-	
+	text-decoration: none;
+	color:#E6E7E8;
 	display:flex;
-	margin-right:20px;
+	
 }
 footer li{
 	margin-right:20px;
-	text-decoration: none;
-	color:#E6E7E8;
+	
 }
 footer img{
 	max-width:200px;
 	width:15%;
-   	min-width:150px;
+   	min-width:120px;
 }
 		/**Desktop**/
 		@media screen and (min-width:570px){
