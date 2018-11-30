@@ -211,11 +211,13 @@ p{
 }
 /**footer**/
 footer{
+margin-top:50px;
 text-align:left;
 background-color:#262D33;
 padding:40px;
 display:flex;
 justify-content:space-evenly;
+	
 }
 footer dt{
 	color:#F6C02D;
