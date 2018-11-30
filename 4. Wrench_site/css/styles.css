@@ -67,6 +67,7 @@ a:hover{
 			header{display:block;}
 
 
+
 				 a.menu-link {
 					float: right;
 					    display: block;
@@ -215,15 +216,17 @@ margin-top:50px;
 text-align:left;
 background-color:#262D33;
 padding:40px;
-display:flex;
-justify-content:space-evenly;
-	
+
+
+}
+footer, dl, ul{
+	margin-bottom:30px;
 }
 footer dt{
 	color:#F6C02D;
 	font-weight:regular;
 	font-size:15px;
-	display:flex;
+
 }
 footer dd{
 	font-size:13px;
@@ -235,16 +238,15 @@ footer ul{
 	text-decoration: none;
 	color:#E6E7E8;
 	display:flex;
-	
+
 }
 footer li{
 	margin-right:20px;
-	
+
 }
 footer img{
 	max-width:200px;
-	width:15%;
-   	min-width:120px;
+   	min-width:200px;
 }
 		/**Desktop**/
 		@media screen and (min-width:570px){
@@ -260,5 +262,8 @@ footer img{
 				padding-top:75px;
 				padding-left:20px;
 			}
-
+			footer{
+				display:flex;
+				justify-content:space-evenly;
+			}
 		}
