@@ -228,10 +228,11 @@ footer dd{
 	color:#E6E7E8;
 }
 
-.footer-social-media{
+ul .footer-social-media{
 
 	text-decoration: none;
 	color:#E6E7E8;
+	display:flex;
 }
 footer img{
 	max-width:200px;
