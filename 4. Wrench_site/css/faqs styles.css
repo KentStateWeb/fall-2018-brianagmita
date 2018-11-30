@@ -19,7 +19,7 @@
 	font-style: normal;
 	font-size: 16px;
 	background-color: #eee;
-	color: #444;
+	color:#262D33;
 	cursor: pointer;
 	padding: 18px;
 	width: 100%;
@@ -29,9 +29,12 @@
 	transition: 0.4s;
 }
 
+
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: #F6C02D;
+		/*outline: 1px solid #F6C02D;
+    outline-offset: -10px;*/
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -44,79 +47,9 @@
 }
 
 .panel > p{
-	padding: 20px 30px 30px 30px;
-	color: red;
-}
-
-.toggles {
-  margin: 100px auto;
-  background: #fff;
-  transform: translateZ(0);
-  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+	padding: 20px 30px 30px 20px;
 }
 
 
-input[type="checkbox"] {
-  position: absolute;
-  opacity: 0;
-}
-
-label {
-  position: relative;
-  display: block;
-  height: 50px;
-  line-height: 50px;
-  padding: 0 20px;
-  font-weight: 700;
-  border-top: 1px solid red;
-  background: #fff;
-  cursor: pointer;
-}
-
-label[for*='1'] {
-  border: 0;
-}
-
-label:after {
-  content: '\f078';
-  position: absolute;
-  top: 0px;
-  right: 20px;
-  font-family: fontawesome;
-  transform: rotate(90deg);
-  transition: .5s transform;
-}
-
-section {
-  max-height: 0;
-  transition: .5s all;
-  overflow: hidden;
-}
-
-#toggle1:checked ~ label[for*='1']:after,
-#toggle2:checked ~ label[for*='2']:after,
-#toggle3:checked ~ label[for*='3']:after,
-#toggle4:checked ~ label[for*='4']:after,
-#toggle5:checked ~ label[for*='5']:after,
-#toggle6:checked ~ label[for*='6']:after,
-#toggle7:checked ~ label[for*='7']:after,
-#toggle8:checked ~ label[for*='8']:after,
-#toggle9:checked ~ label[for*='9']:after,
-#toggle10:checked ~ label[for*='10']:after{
-  transform: rotate(0deg);
-}
-
-#toggle1:checked ~ #content1,
-#toggle2:checked ~ #content2,
-#toggle3:checked ~ #content3,
-#toggle4:checked ~ #content4,
-#toggle5:checked ~ #content5,
-#toggle6:checked ~ #content6,
-#toggle7:checked ~ #content7,
-#toggle8:checked ~ #content8,
-#toggle9:checked ~ #content9,
-#toggle10:checked ~ #content10{
-  max-height: 200px;
-}
 
 
