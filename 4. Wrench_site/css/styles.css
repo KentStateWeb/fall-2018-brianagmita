@@ -14,7 +14,7 @@ main{
 	margin: 0px auto 0px auto;
 	max-width:400px;
 	padding-left: 20px;
-	padding-right:20px;	
+	padding-right:20px;
 }
 
 
@@ -26,12 +26,13 @@ header img{
 	max-width:200px;
 	width:15%;
    	min-width:150px;
-  
-	
+
+
 }
 header{
 	display:flex;
 	background-color:#E6E7E8;
+
 }
 nav a{
 	text-decoration: none;
@@ -43,7 +44,7 @@ nav{
 	font-weight: 500;
 	font-style: normal;
 	background-color:#E6E7E8;
-	
+
 }
 /*Menu*/
 nav ul{
@@ -51,7 +52,7 @@ nav ul{
 	justify-content:space-evenly;
 	padding-right: 20px;
 
-	
+
 }
 nav li{
 	padding-right:40px;
@@ -61,17 +62,17 @@ a:hover{
 	color:#942A1F;
 }
 			@media screen and (max-width: 570px){
-				
+
 			nav ul{display:none;}
-			
-				
+
+
 				 a.menu-link {
 					float: right;
 					    display: block;
 					    padding: 16px;
 					    width: 125px;
 					}
-				
+
 
 				/* Hamburger Button */
 
@@ -80,6 +81,7 @@ a:hover{
 				    width: 40px;
 				    text-align: center;
 				    float: right;
+
 				    transform: translate(0,0);
 				    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 				}
@@ -136,7 +138,7 @@ a:hover{
 
 				nav[role=navigation] {
 					    clear: both;
-					    -webkit-transition: all 0.3s ease-out;  
+					    -webkit-transition: all 0.3s ease-out;
 					    -moz-transition: all 0.3s ease-out;
 					    -ms-transition: all 0.3s ease-out;
 					    -o-transition: all 0.3s ease-out;
@@ -161,7 +163,7 @@ a:hover{
 					}
 			}
 					@media screen and (min-width:570px) {
-					
+
 					    a.menu-link {
 					       display: none;
 					    }
@@ -181,7 +183,7 @@ a:hover{
 						border: 0;
 					    }**/
 					}
-			
+
 
 body{
 	font-family: titling-gothic-fb-narrow, sans-serif;
@@ -208,20 +210,25 @@ p{
 }
 /**footer**/
 footer{
-	text-align:center;
-
+text-align:left;
+background-color:#262D33;
+padding:40px;
 }
 footer dt{
 	color:#F6C02D;
 	font-weight:regular;
 	font-size:15px;
-	
+	display:flex;
 }
 footer dd{
 	font-size:13px;
+	color:#E6E7E8;
 }
-footer dl{	
-	display:flex;
+
+.footer-social-media{
+
+	text-decoration: none;
+	color:#E6E7E8;
 }
 		/**Desktop**/
 		@media screen and (min-width:570px){
@@ -231,7 +238,11 @@ footer dl{
 			max-width:1200px;
 			padding-left:40px;
 			padding-right:40px;
-			
+
 			}
-			nav ul{	padding-top:100px;}
+			nav ul{
+				padding-top:75px;
+				padding-left:20px;
+			}
+
 		}
