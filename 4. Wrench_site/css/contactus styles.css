@@ -12,6 +12,7 @@
 
 
 
+/**start styling for contact us**/
 
 
 p, ul{padding-bottom:30px;}
@@ -21,8 +22,13 @@ p, ul{padding-bottom:30px;}
 	font-weight:200px;
 	font-family: titling-gothic-fb, sans-serif;
 }
+	@media screen and (min-width:570px){
+		.brands{display:flex;
+		min-height:400px;}
 
+	}
 
+/**end styling for contact us**/
 
 
 
