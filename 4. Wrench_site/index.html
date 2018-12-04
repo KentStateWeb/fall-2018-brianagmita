@@ -11,7 +11,6 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="css/index styles.css" rel="stylesheet" type="text/css" media="screen" />
     <link rel="stylesheet" href="https://use.typekit.net/frv3rrs.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   </head>
 
@@ -48,14 +47,33 @@ services to get you back on the road quickly.
 
      <main>
     <body>
-      <div class="promotions">
-        <h1>Promotions</h1>
-        <h3>Walker Converter Days!</h3>
-        <p>Get a $50 VISA prepaid card with the purchase of a qualifying Walker Direct-Fit Catalytic Converter or a Walker Direct-Fit CalCat Catalytic Converter. The Walker "Converter Days!" offer is a mail-in offer. Restrictions apply. Offer may not be combined with any other discount, offer or rebate.
-        Start: 9/1/2015 End: 10/31/2015</p>
-        <h3>Monroe Shocktober</h3>
-        <p>Buy 4 for the Price of 3 - Purchase a combination of (4) Qualifying Monroe or Rancho products and get a VISA prepaid card by Mail equal to the lowest cost unit, up to the current suggested list price. The Monroe "Shocktober" offer is a mail-in offer. Restrictions apply. Offer may not be combined with any other discount, offer or rebate.
-        Start: 9/1/2015 End: 10/31/2015</p>
+      <h1>Promotions</h1>
+      <div id="promo-carousel" class="promotions" data-ride="carousel">
+        <!-- Indicators -->
+        <!--
+        <ol>
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        -->
+
+        <!-- Wrapper for slides -->
+        <div class="carousel js-flickity" data-flickity-options='{ "imagesLoaded":"true", "autoPlay": "true", "watchCSS":"true" }'>
+          <div class="carousel-cell">
+            <h3>Walker Converter Days!</h3>
+            <p>Get a $50 VISA prepaid card with the purchase of a qualifying Walker Direct-Fit Catalytic Converter or a Walker Direct-Fit CalCat Catalytic Converter. The Walker "Converter Days!" offer is a mail-in offer. Restrictions apply. Offer may not be combined with any other discount, offer or rebate.
+            Start: 9/1/2015 End: 10/31/2015</p>
+          </div>
+          <div class="carousel-cell">
+            <h3>Monroe Shocktober</h3>
+            <p>Buy 4 for the Price of 3 - Purchase a combination of (4) Qualifying Monroe or Rancho products and get a VISA prepaid card by Mail equal to the lowest cost unit, up to the current suggested list price. The Monroe "Shocktober" offer is a mail-in offer. Restrictions apply. Offer may not be combined with any other discount, offer or rebate.
+            Start: 9/1/2015 End: 10/31/2015</p>
+          </div>
+          <div class="carousel-cell">
+            <h3>filler subhead</h3>
+            <p>filler test</p>
+        </div>
       </div>
 
       <div class="why us">
@@ -95,18 +113,24 @@ services to get you back on the road quickly.
           <p><span>Corvette Repair</span>"I had my car at two other shops and it still had a check engine light. Todd and brian fixed it fast and inexpensive. Thanks"</p>
           <p>—Feb 25, 2015 by Anonymous</p>
         </div>
-<!--I deleted a end div tag here, seemed unnecessary-->
-<script>
-$(document).ready(function() {
-$('body').addClass('js');
-var $menu = $('#menu'),
-  $menulink = $('.menu-link');
 
-$menulink.click(function() {
-$menulink.toggleClass('active');
-$menu.toggleClass('active');
-return false;
-});});</script>
+
+<!--I deleted a end div tag here, seemed unnecessary-->
+      <script>
+      $(document).ready(function() {
+      $('body').addClass('js');
+      var $menu = $('#menu'),
+        $menulink = $('.menu-link');
+
+      $menulink.click(function() {
+      $menulink.toggleClass('active');
+      $menu.toggleClass('active');
+      return false;
+      });});</script>
+
+      <script src="https://npmcdn.com/flickity@1.2/dist/flickity.pkgd.min.js"></script>
+      <link rel="stylesheet" href="https://npmcdn.com/flickity@1.2/dist/flickity.min.css">
+
     </body>
 
      </main>
