@@ -288,8 +288,9 @@ footer img{
 }
 		/**Desktop**/
 		@media screen and (min-width:680px){
+			
+				p, ul{line-height:32px;}
 			main{
-
 			margin: 0px auto 0px auto;
 			max-width:1000px;
 			padding-left:40px;
@@ -308,6 +309,6 @@ footer img{
 			nav#menu{
 				display:none;
 			}
-		
+
 
 		}

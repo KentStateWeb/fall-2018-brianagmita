@@ -23,12 +23,12 @@ p,ul{padding-bottom:30px;}
 	max-width:250px;
 }
 @media screen and (min-width:680px){
+
 	p span{
 		font-weight:500;
 		font-size: 20px;
 		line-height:32px;
 
 	}
-	p, ul{line-height:32px;}
 }
 /**end services styling**/
