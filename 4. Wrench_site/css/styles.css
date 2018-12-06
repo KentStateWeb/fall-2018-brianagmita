@@ -265,6 +265,7 @@ footer ul{
 	color:#E6E7E8;
 	display:flex;
 	font-size: 24px;
+	margin: 16px 0 10px 0;
 }
 
 footer a{
@@ -303,5 +304,8 @@ footer img{
 				display:flex;
 				justify-content:space-evenly;
 			}
+
 			nav#menu{display:none;}
+
+
 		}
