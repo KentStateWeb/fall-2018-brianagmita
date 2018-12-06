@@ -231,7 +231,9 @@ top:20px;
 background-color:#E6E7E8;
 
 }
-
+#menu{
+	display:none;
+}
 
 p{
 	font-family: titling-gothic-fb-narrow, sans-serif;
