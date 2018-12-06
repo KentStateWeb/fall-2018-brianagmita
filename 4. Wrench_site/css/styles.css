@@ -305,9 +305,9 @@ footer img{
 				justify-content:space-evenly;
 			}
 
-			nav#menu{display:none;}
-
-
-
+			nav#menu{
+				display:none;
+			}
+		
 
 		}
