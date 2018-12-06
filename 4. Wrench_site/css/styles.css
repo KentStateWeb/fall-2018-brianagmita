@@ -72,7 +72,6 @@ a:hover{
 			header{display:block;}
 
 
-
 				 a.menu-link {
 					float: right;
 					    display: block;
@@ -215,6 +214,12 @@ h2, .button{
 	font-family: titling-gothic-fb-condensed, sans-serif;
 	font-weight: 450;
 	font-style: normal;
+}
+
+.button1{width:60px;
+margin:0px;
+padding:0px;
+background-color:#808080;
 }
 
 p{

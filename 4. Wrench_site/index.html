@@ -18,14 +18,30 @@
     <header>
          <a href="index.html"><img src="images/_wrench-logo main.svg" alt="Wrench logo"/></a>
  <!--hambergur menu-->
-        <a href="#menu" class="menu-link">
-    <div class="menu-link__hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-    <!--<div class="menu-link__label">Menu</div>-->
+
+<button class="button button1" onclick= "myFunction()">
+
+  <a href="#menu" class="menu-link">
+<div class="menu-link__hamburger">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+<!--<div class="menu-link__label">Menu</div>-->
 </a>
+
+
+</button>
+<script>
+function myFunction() {
+var x = document.getElementById("menu");
+if (x.style.display === "none") {
+  x.style.display = "block";
+} else {
+  x.style.display = "none";
+}
+}
+</script>
 
        <nav id="menu" role="navigation">
             <ul>
@@ -48,6 +64,7 @@ services to get you back on the road quickly.
 
      <main>
     <body>
+
       <h1>Promotions</h1>
       <div id="promo-carousel" class="promotions" data-ride="carousel">
         <!-- Indicators -->
@@ -116,7 +133,7 @@ services to get you back on the road quickly.
         </div>
 
 
-<!--I deleted a end div tag here, seemed unnecessary-->
+<!--I deleted a end div tag here, seemed unnecessary
       <script>
       $(document).ready(function() {
       $('body').addClass('js');
@@ -127,7 +144,7 @@ services to get you back on the road quickly.
       $menulink.toggleClass('active');
       $menu.toggleClass('active');
       return false;
-      });});</script>
+      });});</script>-->
 
       <script src="https://npmcdn.com/flickity@1.2/dist/flickity.pkgd.min.js"></script>
       <link rel="stylesheet" href="https://npmcdn.com/flickity@1.2/dist/flickity.min.css">
