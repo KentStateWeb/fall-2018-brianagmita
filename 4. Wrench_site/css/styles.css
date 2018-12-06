@@ -67,9 +67,10 @@ a:hover{
 	color:#942A1F;
 }
 			@media screen and (max-width: 570px){
-
+				nav#menu2{display:none;}
 			nav ul{display:block;}
 			header{display:block;}
+
 
 
 				 a.menu-link {
@@ -176,6 +177,7 @@ a:hover{
 							.button1{
 								display:none;
 							}
+
 
 					   /** .js nav[role=navigation] {
 						max-height: none;
@@ -299,4 +301,5 @@ footer img{
 				display:flex;
 				justify-content:space-evenly;
 			}
+			nav#menu{display:none;}
 		}
