@@ -22,5 +22,12 @@ p,ul{padding-bottom:30px;}
 	padding-top:10px;
 	max-width:250px;
 }
+@media screen and (min-width:570px){
+	p span{
+		font-weight:500;
+		font-size: 20px;
+		line-height:32px;
 
+	}
+}
 /**end services styling**/
