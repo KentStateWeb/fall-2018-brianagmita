@@ -32,16 +32,9 @@ header{background-color:#E6E7E8;}
 
 a:link{
 	text-decoration: none;
-	color:#262D33;
+
 	}
-a:visited{
-	color:#262D33;
-}
-a:hover{
-	color:#F6C02D;
-	-webkit-transition-duration: 0.5s;
-	transition-duration: 0.5s;
-}
+
 button{
 	font-family: titling-gothic-fb-condensed, sans-serif;
 	font-size:15px;
@@ -53,14 +46,15 @@ button{
 	margin:30px 30px 10px 30px;
 	border-radius: 15px;
 	display:block;
-	-webkit-transition-duration: 0.5s;
-	transition-duration: 0.5s;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
 }
 
 button:hover{
 	background-color:white;
 	border:solid 1px #F6C02D;
 	border-radius: 10px;
+	color:#F6C02D;
 }
 
 #b2{
@@ -79,14 +73,12 @@ button:hover{
 	background-color:white;
 	border:solid 1px #D39F1E;
 	border-radius: 10px;
+	color:#D39F1E;
 }
 
 @media screen and (min-width:680px){
 
 	div{display:flex;}
-	#b2{
-		padding:0px;
-		margin:35px;
-	}
+	#b2{margin-top:30px;}
 
 }
