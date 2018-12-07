@@ -76,7 +76,7 @@ button:hover{
 	color:#D39F1E;
 }
 
-@media screen and (min-width:680px){
+@media screen and (min-width:955px){
 
 	div{display:flex;}
 	#b2{margin-top:30px;}
