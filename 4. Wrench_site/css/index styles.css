@@ -95,7 +95,13 @@
 	margin-top: 30px;
 	padding-top: 10px;
 	padding-bottom: 50px;
-	background-color: #E6E7E8;
+  background-image: linear-gradient(#FFDC83, white);
+}
+	/*background-color: #E6E7E8;
+	background-color: #F6C02D;*/
+}
+.promotions h1{
+
 }
 
 /**Flickity carousel**/
@@ -113,7 +119,6 @@
 }
 .carousel-cell span.promo-date{
 
-	color: #D39F1E;
 }
 .carousel-cell span.promo-restrictions{
 	font-size: .75em;
@@ -141,8 +146,18 @@
 	display: none;
 }
 
+/*TESTIMONIALS*/
+.testimonials{
+	margin-top: 30px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	background-color: #E6E7E8;
+}
 
-
+p.byline{
+	margin-top: 10px;
+	color: grey;
+}
 
 
 /**Desktop**/
@@ -173,6 +188,17 @@
 		padding-left: 80px;
 		padding-right: 80px;
 	}
+
+	.why-us .why-explain{
+		display: inline;
+	}
+	.why-us .why-flex{
+		display: flex;
+	}
+	.why-us .why-list, .why-us .why-explain{
+		width: 50%;
+	}
+
 }
 
 @media screen and (min-width:1000px){
