@@ -16,8 +16,6 @@ p span{
 
 }
 
-
-
 button#tel{
 	font-family: titling-gothic-fb-condensed, sans-serif;
 	font-weight: 400;
@@ -43,6 +41,15 @@ button#tel:active {
   box-shadow: 0 5px #D39F1E;
   transform: translateY(4px);
 }
+
+iframe{
+	margin-bottom: 3em;
+}
+
+li a.yellowlink{
+	color: #D39F1E
+}
+
 /**start styling for contact us**/
 
 
@@ -59,7 +66,6 @@ main>p, main>ul{padding-bottom:30px;}
 .brands li{
 	width: 100px;
 	margin: 20px auto 20px auto;
-
 }
 
 .brands li img{
