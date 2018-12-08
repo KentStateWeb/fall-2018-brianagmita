@@ -194,9 +194,10 @@ p.byline{
 	}
 	.why-us .why-flex{
 		display: flex;
+		justify-content: space-between;
 	}
 	.why-us .why-list, .why-us .why-explain{
-		width: 50%;
+		width: 47%;
 	}
 
 }
