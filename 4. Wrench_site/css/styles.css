@@ -11,8 +11,6 @@
 }
 
 main{
-	padding-left: 20px;
-	padding-right: 20px;
 	min-height: 66vh;
 }
 
@@ -21,6 +19,8 @@ img{
 }
 
 .wrapper{
+	padding-left: 30px;
+	padding-right: 30px;
 	max-width:400px;
 	margin: 0px auto 0px auto;
 }
