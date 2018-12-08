@@ -91,6 +91,7 @@ main>p, main>ul{
 	}
 	.tires{
 		display:flex;
+		justify-content: space-between;
 	}
 	.service_list{
 			font-size: 16px;
