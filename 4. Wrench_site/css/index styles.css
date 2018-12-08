@@ -118,7 +118,8 @@
 	height: auto;
 }
 .carousel-cell span.promo-date{
-
+	display: block;
+	color: grey;
 }
 .carousel-cell span.promo-restrictions{
 	font-size: .75em;
