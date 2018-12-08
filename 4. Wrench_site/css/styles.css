@@ -294,7 +294,7 @@ footer img{
 		/**Desktop**/
 		@media screen and (min-width:680px){
 
-				p, ul{line-height:32px;}
+				p, ul{line-height:28px;}
 			main{
 			margin: 0px auto 0px auto;
 			max-width:1000px;

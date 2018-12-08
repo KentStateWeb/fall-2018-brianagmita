@@ -86,7 +86,6 @@
 
 /**Flickity carousel**/
 
-/* If you're using images in your slider, add this CSS to ensure they take up 100% of the available area */
 .carousel-cell {
 	width: 100%;
 }
@@ -94,6 +93,14 @@
 	width: 100%;
 	height: auto;
 }
+.carousel-cell span.promo-date{
+	font-weight: 500;
+}
+.carousel-cell span.promo-restrictions{
+	font-size: .75em;
+	font-weight: 500;
+}
+
 /* Ensures that Flickity waits until CSS has loaded to calculate the height of the cells */
 .carousel:after {
   content: 'flickity';
