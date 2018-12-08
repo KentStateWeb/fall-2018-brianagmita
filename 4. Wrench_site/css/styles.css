@@ -33,7 +33,7 @@ header img{
 
 }
 header{
-	display:flex;
+/**	display:flex**/
 	background-color:#E6E7E8;
 	margin:auto;
 	padding-left:20px;
@@ -52,17 +52,16 @@ nav{
 	font-weight: 500;
 	font-style: normal;
 	background-color:#E6E7E8;
-  padding-bottom:20px;
+
 }
 /*Menu*/
 nav ul{
 	display:flex;
 	justify-content:space-evenly;
-	padding-right: 20px;
 
 }
 nav li{
-	padding-right:40px;
+	padding-right:30px;
 }
 
 a:hover{
@@ -312,7 +311,7 @@ footer img{
 	}
 	nav ul{
 		padding-top:10px;
-		padding-left:20px;
+
 	}
 	footer>div{
 		display:flex;
@@ -324,6 +323,13 @@ footer img{
 
 	nav#menu{
 		display:none;
+	}
+
+	#menu2{
+		position:absolute;
+		right:0px;
+		top:47px;
+		padding:0px;
 	}
 
 }
