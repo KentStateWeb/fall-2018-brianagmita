@@ -15,7 +15,7 @@
 /**start styling for contact us**/
 
 
-p, ul{padding-bottom:30px;}
+main>p, main>ul{padding-bottom:30px;}
 
 .brands{
  	color:black;
@@ -27,7 +27,6 @@ p, ul{padding-bottom:30px;}
 
 .brands li{
 	width: 100px;
-	background-color: grey;
 	margin: 20px auto 20px auto;
 
 }
