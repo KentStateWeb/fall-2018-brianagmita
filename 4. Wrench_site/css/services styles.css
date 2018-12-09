@@ -86,9 +86,7 @@ main>p, main>ul{
 
 
 @media screen and (min-width:786px){
-	#extra{
-		display:inline;
-	}
+
 	.tires{
 		display:flex;
 		justify-content: space-between;
@@ -109,6 +107,7 @@ main>p, main>ul{
 		max-width:250px;
 	}
 }
+span{margin-bottom:0px;}
 
 @media screen and (min-width:680px){
 
@@ -117,6 +116,9 @@ main>p, main>ul{
 		font-size: 20px;
 		line-height:32px;
 
+	}
+	#extra{
+		display:inline;
 	}
 }
 /**end services styling**/
