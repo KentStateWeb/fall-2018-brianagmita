@@ -115,34 +115,6 @@ a:hover{
 				}
 
 
-			/**	a.menu-link span:first-child {
-				  transform-origin: 0% 0%;
-				}
-
-
-				a.menu-link span:nth-child(3) {
-				  transform-origin: 0% 100%;
-				}
-
-				.menu-link.active .menu-link__hamburger {
-				    transform: translate(10px, 0);
-				}
-
-				.menu-link.active span {
-				  opacity: 1;
-				    background: black;
-				  transform: rotate(45deg) translate(-2px, -1px);
-				}
-
-				.menu-link.active span:nth-child(2) {
-				  opacity: 0;
-				  transform: rotate(0deg) scale(0.2, 0.2);
-				}
-
-				.menu-link.active span:nth-child(3){
-				  opacity: 1;
-				  transform: rotate(-45deg) translate(0, -1px);
-				}**/
 
 
 				nav[role=navigation] {
@@ -181,21 +153,6 @@ a:hover{
 							}
 
 
-					   /** .js nav[role=navigation] {
-						max-height: none;
-					    }
-					    nav[role=navigation] ul {
-						margin: 0 0 0 -4px;
-						border: 0;
-					    }
-
-					    nav[role=navigation]  li {
-						display: inline-block;
-						margin: 0 4px;
-					    }
-					    nav[role=navigation] li a {
-						border: 0;
-					    }**/
 					}
 
 
